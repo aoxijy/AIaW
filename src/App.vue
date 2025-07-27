@@ -15,7 +15,6 @@ defineOptions({
 })
 
 useSetTheme()
-useLoginDialogs()
 useFirstVisit()
 useSubscriptionNotify()
 
