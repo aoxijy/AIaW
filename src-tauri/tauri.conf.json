@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "AI as Workspace",
+  "productName": "嘉谷域 AI工作台",
   "version": "1.7.9",
   "identifier": "app.aiaw",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "AI as Workspace",
+        "title": "嘉谷域 AI工作台",
         "width": 1150,
         "height": 750,
         "resizable": true,
@@ -42,12 +42,5 @@
     ],
     "createUpdaterArtifacts": true
   },
-  "plugins": {
-    "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDU4M0M5QTM1MDEwQzVERDEKUldUUlhRd0JOWm84V0hHekl0d09jaG1WRTRTbUgrTDhkWmFnK2RGWnRBY3RoaFJiTElZTDB6djQK",
-      "endpoints": [
-        "https://github.com/NitroRCr/AIaW/releases/latest/download/latest.json"
-      ]
-    }
-  }
+  "plugins": {}
 }
